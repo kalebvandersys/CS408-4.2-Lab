@@ -3,11 +3,64 @@ h1 {
     font-family: "Cinzel Decorative", "Tangerine", cursive;
     color: #2a2a2a;
 }
-.logo {
-scale: 0.25;
+
+h2 {
+    font-family: "Cinzel Decorative", "Tangerine", cursive;
 }
-header{
+
+body {
+    background-color: gray;
+}
+p{
+    font-family: Arial;
+}
+.logo {
+    scale: 0.25;
+}
+
+header {
     display: flex;
     align-items: center;
-    height: 150px;
+    justify-content: center;
+    height: 450px;
+    background-color: #6ece58;
+}
+
+.menu {
+    background-color: #70e550;
+    border: 5px solid #6ece58;
+    /* margin: 40px; */
+    list-style: none;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    font-size: 40px;
+    gap: 100px;
+    text-decoration: none; 
+    margin-top: -80px;
+}
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.gallery {
+    background-color: #70e550;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap: 20px;
+    padding: 21px;
+    scale: 0.65;
+    justify-content: right;
+}
+
+.intro {
+    width: 500px;
+    background-color: #70e550;
+}
+
+.footer {
+    background-color: #6ece58;
+    padding: 10px;
 }
