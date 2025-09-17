@@ -10,6 +10,8 @@ h1 {
 
 h2 {
     font-family: "Cinzel Decorative", "Tangerine", cursive;
+    position: relative;
+    left: 35%;
 }
 
 body {
@@ -68,6 +70,15 @@ header {
 .intro {
     width: 500px;
     background-color: #70e550;
+    border: 10px solid #6ece58;
+    padding-bottom: 250px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.intro-text {
+    font-size: 30px;
+    line-height: 30px;
 }
 
 .footer {
