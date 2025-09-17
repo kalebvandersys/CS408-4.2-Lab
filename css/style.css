@@ -22,6 +22,8 @@ body {
 
 p {
     font-family: Arial;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .logo {
@@ -40,7 +42,6 @@ header {
 .menu {
     background-color: #70e550;
     border: 10px solid #6ece58;
-    /* margin: 40px; */
     list-style: none;
     display: flex;
     padding: 25px;
@@ -67,12 +68,11 @@ header {
     border-top: 10px solid #6ece58;
     border-bottom: 10px solid #6ece58;
     flex: 1;
-    /* max-width: 400px; */
 }
 .gallery img {
-  display: block;   /* removes inline whitespace */
-  width: 100%;      /* fills grid cell */
-  height: auto;     /* keep proportions */
+  display: block;  
+  width: 100%;    
+  height: auto;     
 }
 .gallery h2 {
   grid-column: 1 / -1;
@@ -81,15 +81,14 @@ header {
     width: 400px;
     background-color: #70e550;
     border: 10px solid #6ece58;
-    padding-bottom: 154.5px;
+    padding-bottom: 181px;
     padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10px;
+    padding-right: 7px;
     flex: 2;
 }
 .intro-text {
     font-size: 30px;
-    line-height: 30px;
 }
 .middle{
     display: flex;
@@ -97,9 +96,6 @@ header {
     align-items: flex-start;
     margin-bottom: 10px;
 }
-/* .pictures{
-    scale: 0.;
-} */
 .footer {
     background-color: #6ece58;
     padding: 10px;
