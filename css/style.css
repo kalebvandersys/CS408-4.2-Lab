@@ -2,6 +2,9 @@ h1 {
     font-size: 60px;
     font-family: "Cinzel Decorative", "Tangerine", cursive;
     color: #2a2a2a;
+    align-self: center;
+    position: relative;
+    left: 30%;
 }
 
 h2 {
@@ -9,6 +12,7 @@ h2 {
 }
 
 body {
+    max-width: 900px;
     background-color: gray;
 }
 
@@ -17,7 +21,7 @@ p {
 }
 
 .logo {
-    scale: 0.20;
+    scale: 0.2;
 }
 
 header {
@@ -26,6 +30,7 @@ header {
     justify-content: center;
     height: 250px;
     background-color: #6ece58;
+    gap: 200px;
 }
 
 .header-item {
@@ -41,9 +46,10 @@ header {
     padding: 25px;
     justify-content: center;
     font-size: 40px;
-    gap: 150px;
+    gap: 50px;
     text-decoration: none;
     margin-top: -60px;
+    font-size: 30px;
 }
 
 .menu-item a {
