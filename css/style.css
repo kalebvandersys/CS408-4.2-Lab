@@ -5,7 +5,6 @@ h1 {
     align-self: center;
     position: relative;
     left: 49%;
-    font-weight: 1000;
     text-shadow: 1px 1px 2px #333;
 }
 
@@ -30,7 +29,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 175px;
     background-color: #6ece58;
     gap: 460px;
 }
@@ -45,7 +44,7 @@ header {
     justify-content: center;
     gap: 70px;
     text-decoration: none;
-    margin-top: -60px;
+    margin-top: -40px;
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
