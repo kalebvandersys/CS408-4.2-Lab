@@ -93,7 +93,7 @@ header {
 }
 .middle{
     display: flex;
-    margin-top: 20px;
+    margin-top: -15px;
     align-items: flex-start;
     margin-bottom: 10px;
 }
